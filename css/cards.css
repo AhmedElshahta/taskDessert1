@@ -1,0 +1,118 @@
+
+h1{
+    margin:50px 50px;
+}
+.parent{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.counter{
+    width:70%;
+    height:100vh;
+   margin-bottom: 50px; 
+   display: grid;
+    grid-template-columns:repeat(4,230px) ;
+    grid-template-rows: repeat(3,330px);
+    gap: 10px 10px;
+    
+
+
+}
+
+.card{
+    width:200px;
+    height:300px;
+
+
+
+}
+.card_image{
+    height: 180px;
+    width: 100%;
+    background-image: url("../assets/images/image-waffle-tablet.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+
+}
+.card_image_button{
+ padding: 5px 0;
+ width: 100px;
+ text-align: center;
+ background-color: var(--Rose50);
+ border-radius: 20px;
+position: absolute;
+top:160px ;
+left:25%;
+cursor: pointer;
+
+}
+.card_image_button:hover{
+    background-color: var(--Red);
+    color: var(--Rose50);
+}
+.card_paragraph{
+    margin-top: 20px;
+
+}
+.im2{
+    background-image: url("../assets/images/image-tiramisu-desktop.jpg");
+}
+.im3{
+    background-image: url("../assets/images/image-panna-cotta-desktop.jpg");
+}
+.im4{
+background-image: url("../assets/images/image-meringue-desktop.jpg");
+
+}
+.im5{
+    background-image: url("../assets/images/image-macaron-desktop.jpg");
+
+}
+.im6{
+    background-image: url("../assets/images/image-creme-brulee-desktop.jpg");
+
+}
+.im7{
+    background-image: url("../assets/images/image-cake-desktop.jpg");
+
+}
+.im8{
+    background-image: url("../assets/images/image-brownie-desktop.jpg");
+    
+}
+.im9{
+    background-image: url("../assets/images/image-baklava-desktop.jpg");
+}
+/* your cart */
+.yourCart{
+    width:300px;
+    height:400px;
+    background-color: var(--Rose50);
+    border-radius: 20px;
+    text-align: center;
+}
+.yourCart h2{
+    color: var(--Red);
+}
+.yourCart_conf{
+    text-align: center;
+    padding: 5px 0;
+    width:200px;
+    color: var(--Rose50);
+    background-color: var(--Red);
+   cursor: pointer;
+    border-radius: 15px;
+    margin-left:50px ;
+}
+ul{
+    list-style: none;
+}
+@media screen  {
+    
+}
+  

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+
+  <h1>Desserts</h1>
+  <div class="parent">
+ <div class="counter">
+  
+  <div class="card">
+    <div class="card_image">
+      
+      <div class="card_image_button" onclick="addToCart('Waffle with Berries', 6.50)">
+           Add to Cart
+      </div>
+    </div>
+    <div class="card_paragraph">
+      <p> Waffle</p>
+      <h4>Waffle with Berries</h4>
+      <p>6.50</p>
+    </div>
+  </div>
+
+  <!-- card2 -->
+  <div class="card">
+    <div class="card_image im2">
+      
+      <div class="card_image_button" onclick="addToCart('Vanilla Bean Crème Brûlée', 7.00)">
+           Add to Cart
+      </div>
+    </div>
+    <div class="card_paragraph">
+      <p> Crème Brûlée</p>
+      <h4>Vanilla Bean Crème Brûlée</h4>
+      <p>7.00</p>
+    </div>
+  </div>
+  
+  
+  
+  <!-- card3 -->
+  <div class="card">
+    <div class="card_image  im3">
+      
+      <div class="card_image_button" onclick="addToCart('Macaron Mix of Five',8.00)">
+           Add to Cart
+      </div>
+    </div>
+    <div class="card_paragraph">
+      <p> Macaron</p>
+      <h4>Macaron Mix of Five</h4>
+      <p> 8.00</p>
+    </div>
+  </div>
+  
+  
+ 
+  <!-- card4 -->
+  <div class="card">
+    <div class="card_image im4">
+      
+      <div class="card_image_button"onclick="addToCart('Classic Tiramisu',5.50)">
+           Add to Cart
+      </div>
+    </div>
+    <div class="card_paragraph">
+      <p>Tiramisu </p>
+      <h4>Classic Tiramisu</h4>
+      <p> 5.50</p>
+    </div>
+  </div>
+  
+  
+ 
+  <!-- card5 -->
+  <div class="card">
+    <div class="card_image im5">
+      
+      <div class="card_image_button"onclick="addToCart('Pistachio Baklava',4.00)">
+           Add to Cart
+      </div>
+    </div>
+    <div class="card_paragraph">
+      <p>Baklava </p>
+      <h4>Pistachio Baklava</h4>
+      <p> 4.00</p>
+    </div>
+  </div>
+  
+  
+ 
+  <!-- card6 -->
+  <div class="card">
+    <div class="card_image im6">
+      
+      <div class="card_image_button"onclick="addToCart('Lemon Meringue Pie',5.00)">
+           Add to Cart
+      </div>
+    </div>
+    <div class="card_paragraph">
+      <p>Pie</p>
+      <h4>Lemon Meringue Pie</h4>
+      <p>5.00</p>
+    </div>
+  </div>
+  
+  
+  
+  <!-- card7 -->
+  <div class="card">
+    <div class="card_image im7">
+      
+      <div class="card_image_button"onclick="addToCart('Red Velvet Cake',4.50)">
+           Add to Cart
+      </div>
+    </div>
+    <div class="card_paragraph">
+      <p> Cake </p>
+      <h4>Red Velvet Cake</h4>
+      <p>4.50</p>
+    </div>
+  </div>
+  
+ 
+  
+  <!-- card8 -->
+  <div class="card">
+    <div class="card_image im8">
+      
+      <div class="card_image_button"onclick="addToCart('Vanilla Panna Cotta',6.50)">
+           Add to Cart
+      </div>
+    </div>
+    <div class="card_paragraph">
+      <p> Panna Cotta</p>
+      <h4>Vanilla Panna Cotta</h4>
+      <p>6.50</p>
+    </div>
+    
+   
+    
+  </div>
+  
+  
+  
+  <!-- card9 -->
+  <div class="card">
+    <div class="card_image im9">
+      
+      <div class="card_image_button"onclick="addToCart('Waffle with Berries',6.50)">
+           Add to Cart
+      </div>
+    </div>
+    <div class="card_paragraph">
+      <p> Waffle</p>
+      <h4>Waffle with Berries</h4>
+      <p>6.50</p>
+    </div>
+  
+  </div>
+ </div>
+ <div class="yourCart">
+  <h2>your cart()</h2>
+            <ul id="cart-product"></ul>
+            <p>Total: $<span id="total-price">0.00</span></p>
+            <div>
+            <div class="yourCart_conf" id="confirm-order">Confirm Order</div >
+              
+          </div>
+ </div>
+</div>
+  
+ 
+  
+ 
+
+  
+  
+
+  
+  
+
+  
+  <script src="./js/script.js"></script>
+
+  <!-- Your Cart (Quantity) -->
+  <!-- Your added items will appear here -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>

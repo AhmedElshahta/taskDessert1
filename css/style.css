@@ -1,0 +1,11 @@
+
+@import './color.css';
+@import './cards.css';
+@import './rest.css';
+body{
+    background-color:var(--Rose100) ;
+ 
+}
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
